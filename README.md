@@ -1,5 +1,3 @@
-# Proyecto Universitario: Mini-sitio Web de Noticias Deportivas (Semana 2)
-
 ## Descripción del Proyecto
 
 Este proyecto es un diario digital deportivo profesional (estilo ESPN o Marca)
