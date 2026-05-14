@@ -2,47 +2,79 @@
 <html lang="es">
 <head>
     <meta charset="UTF-8">
-    <title>Euroleague - BasketMundo</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Análisis de la Final Four de la Euroliga 2026 y la importancia de los sistemas tácticos europeos.">
+    <title>Final Four 2026: Europa define a su nuevo rey | Sports 2026</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,700;1,300&family=Roboto:wght@400;700;900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <header>
-        <h1>EUROLIGA BASKET</h1>
-    </header>
-    
-    <nav>
-        <a href="index.html">Inicio</a>
-        <a href="nba.html">NBA</a>
-        <a href="euroliga.html">Euroleague</a>
-    </nav>
-
-    <div class="container">
-        <h2>El Mejor Baloncesto de Europa</h2>
-        
-        <div class="news-grid">
-            <div class="card">
-                <img src="https://media-cdn.cortextech.io/1dU3kpCqReRp93/1BSdBWIjCfFoEo/dcee482d-9e89-47ec-9956-9b453a8817da.jpg?width=960&resizeType=fill&format=webp" alt="Euro">
-                <div class="card-content">
-                    <h3>Clasificación Actual</h3>
-                    <p>Revisa cómo va la tabla en la carrera por entrar en el Top 8.</p>
-                    <a href="https://www.euroleaguebasketball.net/euroleague/" target="_blank" class="btn">Sitio Oficial</a>
-                </div>
-            </div>
-            <div class="card">
-                <img src="https://e00-elmundo.uecdn.es/assets/multimedia/imagenes/2018/05/19/15267444089947.jpg" alt="">
-                <div class="card-content">
-                    <h3>MVP de la Semana</h3>
-                    <p>Descubre quién ha sido el jugador más valorado de la última jornada europea.</p>
-                    <a href="https://basketnews.com" target="_blank" class="btn">BasketNews.com</a>
-                </div>
-            </div>
+    <header class="site-header">
+        <div class="container header-container">
+            <div class="brand"><a href="index.html" style="color:white; text-decoration:none;">SPORTS<span>2026</span></a></div>
+            <nav class="main-nav">
+                <ul>
+                    <li><a href="index.html">Inicio</a></li>
+                    <li><a href="nba.html">NBA</a></li>
+                    <li><a href="euroliga.html" class="active">Euroliga</a></li>
+                </ul>
+            </nav>
         </div>
-        
-        <p>Más información en <a href="https://www.marca.com/baloncesto/euroliga.html" target="_blank">Diario Marca</a>.</p>
-    </div>
+    </header>
 
-    <footer>
-        <p>&copy; 2024 BasketMundo - Euroleague Section</p>
+    <main class="container article-layout">
+        <article class="main-article">
+            <header>
+                <span class="tag tag-euro">Final Four 2026</span>
+                <h1>Europa define a su nuevo rey bajo la mirada de la NBA</h1>
+                <p class="subtitle">La Final Four se disputa este fin de semana. Mientras los gigantes europeos chocan, decenas de scouts norteamericanos toman nota en las gradas.</p>
+                
+                <div class="meta-info">
+                    <span class="author">Por Laura Gómez</span>
+                    <span class="date">18 de Mayo de 2026</span>
+                </div>
+            </header>
+
+            <figure class="featured-image">
+                <img src="https://images.unsplash.com/photo-1546519638-68e109498ffc?auto=format&fit=crop&q=80&w=1200" alt="Balón de baloncesto sobre la cancha iluminada">
+                <figcaption>El rigor táctico de la Euroliga la convierte en el segundo torneo más exigente del planeta.</figcaption>
+            </figure>
+
+            <div class="article-content">
+                <p>El ambiente en el pabellón es eléctrico. La Final Four de la Euroliga 2026 no solo representa la culminación del baloncesto continental, sino que se ha convertido en el principal escaparate global para el talento emergente y los sistemas tácticos innovadores.</p>
+                
+                <p>A diferencia de la liga estadounidense, donde el espacio y el ritmo de juego son frenéticos, la Euroliga se caracteriza por ser un "ajedrez físico". Cada posesión vale oro, las defensas son asfixiantes y los entrenadores despliepan pizarras de una complejidad abrumadora. Es esta misma inteligencia la que los ojeadores de la NBA vienen a buscar.</p>
+                
+                <p>En las conferencias de prensa previas al gran evento, entrenadores y jugadores hicieron énfasis en el crecimiento de la competición. "Ya no somos el hermano menor. Somos el laboratorio donde se está gestando el baloncesto moderno", comentó uno de los técnicos finalistas. Las estadísticas respaldan esta afirmación: un alto porcentaje de las jugadas en transiciones largas hoy en la NBA fueron perfeccionadas primero en pistas europeas.</p>
+                
+                <p>Este fin de semana, mientras un nuevo campeón levanta el trofeo en Europa, la conexión transatlántica se fortalecerá una vez más, demostrando que el idioma del baloncesto es verdaderamente universal.</p>
+            </div>
+        </article>
+
+        <aside class="sidebar">
+            <div class="widget">
+                <h3>Noticias Relacionadas</h3>
+                <ul class="related-news">
+                    <li>
+                        <a href="nba.html">El impacto de los jugadores europeos en los Playoffs de la NBA</a>
+                    </li>
+                    <li>
+                        <a href="#">Mercado de fichajes: ¿Quién dará el salto a América este verano?</a>
+                    </li>
+                    <li>
+                        <a href="#">El análisis táctico de los finalistas europeos</a>
+                    </li>
+                </ul>
+            </div>
+        </aside>
+    </main>
+
+    <footer class="site-footer">
+        <div class="container">
+            <p>&copy; 2026 Sports 2026 News. Proyecto Universitario - Semana 2.</p>
+        </div>
     </footer>
 </body>
 </html>

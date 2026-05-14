@@ -2,48 +2,63 @@
 <html lang="es">
 <head>
     <meta charset="UTF-8">
-    <title>BasketMundo - Noticias de Baloncesto</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Diario deportivo especializado en la conexión entre la Euroliga y la NBA en la temporada 2026.">
+    <title>Sports 2026 | El puente entre la Euroliga y la NBA</title>
+    
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,700;1,300&family=Roboto:wght@400;700;900&display=swap" rel="stylesheet">
+    
+    <!-- Hoja de estilos externa -->
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <header>
-        <h1>BASKET MUNDO</h1>
-    </header>
-    
-    <nav>
-        <a href="index.html">Inicio</a>
-        <a href="nba.html">NBA</a>
-        <a href="euroliga.html">Euroleague</a>
-    </nav>
-
-    <div class="container">
-        <img src="https://images.unsplash.com/photo-1546519638-68e109498ffc?ixlib=rb-1.2.1&auto=format&fit=crop&w=1000&q=80" alt="Basket" class="hero-img">
-        
-        <h2>Lo último en el Deporte Ráfaga</h2>
-        <p>Tu portal de confianza para seguir la actualidad de la NBA y la emoción de la Euroliga. Análisis, resultados y las noticias más impactantes.</p>
-
-        <div class="news-grid">
-            <div class="card">
-                <img src="https://images.unsplash.com/photo-1504450758481-7338eba7524a?auto=format&fit=crop&w=500&q=80" alt="NBA">
-                <div class="card-content">
-                    <h3>Rumbo a los Playoffs</h3>
-                    <p>La batalla en la Conferencia Oeste está más intensa que nunca este año.</p>
-                    <a href="nba.html" class="btn">Leer NBA</a>
-                </div>
-            </div>
-            <div class="card">
-                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSB8k63qwN7a4vvzEGBHd_3jDsmbUR28ETC8A&s">
-                <div class="card-content">
-                    <h3>Final Four a la vista</h3>
-                    <p>Los mejores equipos del continente se preparan para la cita máxima en Europa.</p>
-                    <a href="euroliga.html" class="btn">Leer Euroliga</a>
-                </div>
-            </div>
+    <header class="site-header">
+        <div class="container header-container">
+            <div class="brand">SPORTS<span>2026</span></div>
+            <nav class="main-nav">
+                <ul>
+                    <li><a href="index.html" class="active">Inicio</a></li>
+                    <li><a href="nba.html">NBA</a></li>
+                    <li><a href="euroliga.html">Euroliga</a></li>
+                </ul>
+            </nav>
         </div>
-    </div>
+    </header>
 
-    <footer>
-        <p>&copy; 2024 BasketMundo - Pasión por el Baloncesto</p>
+    <main class="container">
+        <section class="home-intro">
+            <h1>La conexión entre la Euroliga y la NBA en 2026</h1>
+            <p>El baloncesto globalizado nunca había estado tan interconectado. Descubre cómo las estrellas de Europa dominan en Norteamérica y viceversa.</p>
+        </section>
+
+        <section class="news-grid">
+            <article class="card">
+                <img src="https://images.unsplash.com/photo-1504450758481-7338eba7524a?auto=format&fit=crop&q=80&w=800" alt="Jugador de baloncesto haciendo un mate">
+                <div class="card-content">
+                    <span class="tag tag-nba">NBA Playoffs</span>
+                    <h2><a href="nba.html">La intensidad de los Playoffs llega a su punto máximo este 2026</a></h2>
+                    <p>Las finales de conferencia están que arden. El impacto de los talentos europeos sigue siendo el factor diferencial en la liga más competitiva del mundo.</p>
+                </div>
+            </article>
+
+            <article class="card">
+                <img src="https://images.unsplash.com/photo-1546519638-68e109498ffc?auto=format&fit=crop&q=80&w=800" alt="Pelota de baloncesto en la cancha">
+                <div class="card-content">
+                    <span class="tag tag-euro">Euroliga</span>
+                    <h2><a href="euroliga.html">Final Four 2026: Europa define a su nuevo rey</a></h2>
+                    <p>Cuatro equipos, una sola corona. La Euroliga demuestra por qué su nivel táctico está atrayendo cada vez más la mirada de los ojeadores de la NBA.</p>
+                </div>
+            </article>
+        </section>
+    </main>
+
+    <footer class="site-footer">
+        <div class="container">
+            <p>&copy; 2026 Sports 2026 News. Proyecto Universitario - Semana 2.</p>
+        </div>
     </footer>
 </body>
 </html>
